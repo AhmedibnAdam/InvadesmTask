@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		263B05DDFCA3C53F918F1671 /* Pods_InvadeTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E69EA38AC630B60FDA51E49 /* Pods_InvadeTask.framework */; };
+		4796EF002BE6FEC500121C18 /* TestRealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796EEFF2BE6FEC500121C18 /* TestRealmManager.swift */; };
+		4796EF012BE7025600121C18 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E69CC2BE5D16900F05550 /* RealmManager.swift */; };
+		4796EF062BE705F000121C18 /* RealmTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796EF052BE705F000121C18 /* RealmTestModel.swift */; };
+		4796EF082BE7076700121C18 /* TestListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796EF072BE7076700121C18 /* TestListingViewController.swift */; };
+		4796EF0A2BE7091000121C18 /* TestListingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796EF092BE7091000121C18 /* TestListingInteractor.swift */; };
+		4796EF0C2BE7092700121C18 /* testListingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796EF0B2BE7092700121C18 /* testListingPresenter.swift */; };
+		4796EF0E2BE7094000121C18 /* TestListingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796EF0D2BE7094000121C18 /* TestListingRouter.swift */; };
+		4796EF102BE7097200121C18 /* TestDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796EF0F2BE7097200121C18 /* TestDetailsViewController.swift */; };
+		4796EF122BE7098500121C18 /* TestDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796EF112BE7098500121C18 /* TestDetailsInteractor.swift */; };
+		4796EF142BE7099500121C18 /* TestDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796EF132BE7099500121C18 /* TestDetailsPresenter.swift */; };
+		4796EF162BE709A400121C18 /* TestDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796EF152BE709A400121C18 /* TestDetailsRouter.swift */; };
 		479E69AD2BE5C2BA00F05550 /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E69AB2BE5C2BA00F05550 /* ListingViewController.swift */; };
 		479E69AE2BE5C2BA00F05550 /* ListingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479E69AC2BE5C2BA00F05550 /* ListingViewController.xib */; };
 		479E69B12BE5C35D00F05550 /* DetailsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E69AF2BE5C35D00F05550 /* DetailsScreenViewController.swift */; };
@@ -19,6 +29,7 @@
 		479E69CE2BE5D16900F05550 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E69CC2BE5D16900F05550 /* RealmManager.swift */; };
 		479E69CF2BE5D16900F05550 /* RealmExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E69CD2BE5D16900F05550 /* RealmExtension.swift */; };
 		479E69DB2BE5E51500F05550 /* InvadeMSTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E69DA2BE5E51500F05550 /* InvadeMSTaskTests.swift */; };
+		C08A522E0FA6931C55468CAB /* Pods_InvadeMSTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C2182F89736A6406429CB9 /* Pods_InvadeMSTask.framework */; };
 		F703EAEA2BE2B6E300E8EB30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F703EAE92BE2B6E300E8EB30 /* AppDelegate.swift */; };
 		F703EAF32BE2B6E600E8EB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F703EAF22BE2B6E600E8EB30 /* Assets.xcassets */; };
 		F703EAF62BE2B6E600E8EB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F703EAF42BE2B6E600E8EB30 /* LaunchScreen.storyboard */; };
@@ -47,6 +58,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4796EEFF2BE6FEC500121C18 /* TestRealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRealmManager.swift; sourceTree = "<group>"; };
+		4796EF052BE705F000121C18 /* RealmTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmTestModel.swift; sourceTree = "<group>"; };
+		4796EF072BE7076700121C18 /* TestListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestListingViewController.swift; path = InvadeMSTaskTests/InvadeMSTask/ListingScreen/TestListingViewController.swift; sourceTree = SOURCE_ROOT; };
+		4796EF092BE7091000121C18 /* TestListingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestListingInteractor.swift; path = InvadeMSTaskTests/InvadeMSTask/ListingScreen/TestListingInteractor.swift; sourceTree = SOURCE_ROOT; };
+		4796EF0B2BE7092700121C18 /* testListingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = testListingPresenter.swift; path = InvadeMSTaskTests/InvadeMSTask/ListingScreen/testListingPresenter.swift; sourceTree = SOURCE_ROOT; };
+		4796EF0D2BE7094000121C18 /* TestListingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestListingRouter.swift; path = InvadeMSTaskTests/InvadeMSTask/ListingScreen/TestListingRouter.swift; sourceTree = SOURCE_ROOT; };
+		4796EF0F2BE7097200121C18 /* TestDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetailsViewController.swift; sourceTree = "<group>"; };
+		4796EF112BE7098500121C18 /* TestDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetailsInteractor.swift; sourceTree = "<group>"; };
+		4796EF132BE7099500121C18 /* TestDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetailsPresenter.swift; sourceTree = "<group>"; };
+		4796EF152BE709A400121C18 /* TestDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetailsRouter.swift; sourceTree = "<group>"; };
 		479E69AB2BE5C2BA00F05550 /* ListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
 		479E69AC2BE5C2BA00F05550 /* ListingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListingViewController.xib; sourceTree = "<group>"; };
 		479E69AF2BE5C35D00F05550 /* DetailsScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreenViewController.swift; sourceTree = "<group>"; };
@@ -59,8 +80,10 @@
 		479E69CD2BE5D16900F05550 /* RealmExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmExtension.swift; sourceTree = "<group>"; };
 		479E69D82BE5E51500F05550 /* InvadeMSTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvadeMSTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		479E69DA2BE5E51500F05550 /* InvadeMSTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvadeMSTaskTests.swift; sourceTree = "<group>"; };
+		58C2182F89736A6406429CB9 /* Pods_InvadeMSTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InvadeMSTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59205E069C09E3DFDF15A943 /* Pods-InvadeTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvadeTask.release.xcconfig"; path = "Target Support Files/Pods-InvadeTask/Pods-InvadeTask.release.xcconfig"; sourceTree = "<group>"; };
-		6E69EA38AC630B60FDA51E49 /* Pods_InvadeTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InvadeTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1885A211E5AEE5045F6CC06 /* Pods-InvadeMSTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvadeMSTask.release.xcconfig"; path = "Target Support Files/Pods-InvadeMSTask/Pods-InvadeMSTask.release.xcconfig"; sourceTree = "<group>"; };
+		B8B5AA5EA93A6FD2DC9DBA07 /* Pods-InvadeMSTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvadeMSTask.debug.xcconfig"; path = "Target Support Files/Pods-InvadeMSTask/Pods-InvadeMSTask.debug.xcconfig"; sourceTree = "<group>"; };
 		C7276A25ED070BB9D5CB1691 /* Pods-InvadeTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvadeTask.debug.xcconfig"; path = "Target Support Files/Pods-InvadeTask/Pods-InvadeTask.debug.xcconfig"; sourceTree = "<group>"; };
 		F703EAE62BE2B6E300E8EB30 /* InvadeMSTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvadeMSTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F703EAE92BE2B6E300E8EB30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,7 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				263B05DDFCA3C53F918F1671 /* Pods_InvadeTask.framework in Frameworks */,
+				C08A522E0FA6931C55468CAB /* Pods_InvadeMSTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,9 +126,49 @@
 		27ABA485CF151D54CF4BA1B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6E69EA38AC630B60FDA51E49 /* Pods_InvadeTask.framework */,
+				58C2182F89736A6406429CB9 /* Pods_InvadeMSTask.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4796EEFB2BE6FE5300121C18 /* InvadeMSTask */ = {
+			isa = PBXGroup;
+			children = (
+				4796EEFD2BE6FE7B00121C18 /* DetailsScreen */,
+				4796EEFC2BE6FE6800121C18 /* ListingScreen */,
+			);
+			path = InvadeMSTask;
+			sourceTree = "<group>";
+		};
+		4796EEFC2BE6FE6800121C18 /* ListingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4796EF072BE7076700121C18 /* TestListingViewController.swift */,
+				4796EF092BE7091000121C18 /* TestListingInteractor.swift */,
+				4796EF0B2BE7092700121C18 /* testListingPresenter.swift */,
+				4796EF0D2BE7094000121C18 /* TestListingRouter.swift */,
+			);
+			path = ListingScreen;
+			sourceTree = "<group>";
+		};
+		4796EEFD2BE6FE7B00121C18 /* DetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4796EF0F2BE7097200121C18 /* TestDetailsViewController.swift */,
+				4796EF132BE7099500121C18 /* TestDetailsPresenter.swift */,
+				4796EF112BE7098500121C18 /* TestDetailsInteractor.swift */,
+				4796EF152BE709A400121C18 /* TestDetailsRouter.swift */,
+			);
+			path = DetailsScreen;
+			sourceTree = "<group>";
+		};
+		4796EEFE2BE6FE9D00121C18 /* RealmManagerTest */ = {
+			isa = PBXGroup;
+			children = (
+				4796EEFF2BE6FEC500121C18 /* TestRealmManager.swift */,
+				4796EF052BE705F000121C18 /* RealmTestModel.swift */,
+			);
+			path = RealmManagerTest;
 			sourceTree = "<group>";
 		};
 		479E69B52BE5C46500F05550 /* Launch */ = {
@@ -120,17 +183,9 @@
 		479E69BA2BE5C74600F05550 /* AppModules */ = {
 			isa = PBXGroup;
 			children = (
-				479E69BB2BE5C75800F05550 /* SharedComponents */,
 				F703EB012BE2D9CB00E8EB30 /* Scenes */,
 			);
 			path = AppModules;
-			sourceTree = "<group>";
-		};
-		479E69BB2BE5C75800F05550 /* SharedComponents */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SharedComponents;
 			sourceTree = "<group>";
 		};
 		479E69BC2BE5C7A000F05550 /* Controls */ = {
@@ -234,15 +289,6 @@
 			path = Realm;
 			sourceTree = "<group>";
 		};
-		479E69D32BE5E4FE00F05550 /* ModulesTEST */ = {
-			isa = PBXGroup;
-			children = (
-				479E69E22BE5E53900F05550 /* DetailsScreen */,
-				479E69E12BE5E52F00F05550 /* ListingScreen */,
-			);
-			path = ModulesTEST;
-			sourceTree = "<group>";
-		};
 		479E69D92BE5E51500F05550 /* InvadeMSTaskTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,25 +297,13 @@
 			path = InvadeMSTaskTests;
 			sourceTree = "<group>";
 		};
-		479E69E12BE5E52F00F05550 /* ListingScreen */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ListingScreen;
-			sourceTree = "<group>";
-		};
-		479E69E22BE5E53900F05550 /* DetailsScreen */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DetailsScreen;
-			sourceTree = "<group>";
-		};
 		EA8F500AD775CFF5BAF3C518 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				C7276A25ED070BB9D5CB1691 /* Pods-InvadeTask.debug.xcconfig */,
 				59205E069C09E3DFDF15A943 /* Pods-InvadeTask.release.xcconfig */,
+				B8B5AA5EA93A6FD2DC9DBA07 /* Pods-InvadeMSTask.debug.xcconfig */,
+				A1885A211E5AEE5045F6CC06 /* Pods-InvadeMSTask.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -397,7 +431,8 @@
 		F7DC94552BE3A38E006BEB11 /* InvadeMSTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				479E69D32BE5E4FE00F05550 /* ModulesTEST */,
+				4796EEFE2BE6FE9D00121C18 /* RealmManagerTest */,
+				4796EEFB2BE6FE5300121C18 /* InvadeMSTask */,
 			);
 			path = InvadeMSTaskTests;
 			sourceTree = "<group>";
@@ -431,7 +466,7 @@
 				F703EAE22BE2B6E300E8EB30 /* Sources */,
 				F703EAE32BE2B6E300E8EB30 /* Frameworks */,
 				F703EAE42BE2B6E300E8EB30 /* Resources */,
-				FA48C9B1FE9533EC78F41B50 /* [CP] Embed Pods Frameworks */,
+				EB720BE919E29E914B5F7193 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -519,28 +554,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-InvadeTask-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-InvadeMSTask-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FA48C9B1FE9533EC78F41B50 /* [CP] Embed Pods Frameworks */ = {
+		EB720BE919E29E914B5F7193 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InvadeTask/Pods-InvadeTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-InvadeMSTask/Pods-InvadeMSTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InvadeTask/Pods-InvadeTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-InvadeMSTask/Pods-InvadeMSTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InvadeTask/Pods-InvadeTask-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InvadeMSTask/Pods-InvadeMSTask-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -551,6 +586,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				479E69DB2BE5E51500F05550 /* InvadeMSTaskTests.swift in Sources */,
+				4796EF162BE709A400121C18 /* TestDetailsRouter.swift in Sources */,
+				4796EF082BE7076700121C18 /* TestListingViewController.swift in Sources */,
+				4796EF062BE705F000121C18 /* RealmTestModel.swift in Sources */,
+				4796EF002BE6FEC500121C18 /* TestRealmManager.swift in Sources */,
+				4796EF102BE7097200121C18 /* TestDetailsViewController.swift in Sources */,
+				4796EF0C2BE7092700121C18 /* testListingPresenter.swift in Sources */,
+				4796EF0E2BE7094000121C18 /* TestListingRouter.swift in Sources */,
+				4796EF142BE7099500121C18 /* TestDetailsPresenter.swift in Sources */,
+				4796EF012BE7025600121C18 /* RealmManager.swift in Sources */,
+				4796EF0A2BE7091000121C18 /* TestListingInteractor.swift in Sources */,
+				4796EF122BE7098500121C18 /* TestDetailsInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,7 +654,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2575397245;
+				DEVELOPMENT_TEAM = 8W5D2366YD;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -627,7 +673,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2575397245;
+				DEVELOPMENT_TEAM = 8W5D2366YD;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -761,13 +807,13 @@
 		};
 		F703EAFB2BE2B6E600E8EB30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7276A25ED070BB9D5CB1691 /* Pods-InvadeTask.debug.xcconfig */;
+			baseConfigurationReference = B8B5AA5EA93A6FD2DC9DBA07 /* Pods-InvadeMSTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 33R6DGRHNR;
+				DEVELOPMENT_TEAM = 8W5D2366YD;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InvadeTask/Configuration/Info.plist;
@@ -793,13 +839,13 @@
 		};
 		F703EAFC2BE2B6E600E8EB30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59205E069C09E3DFDF15A943 /* Pods-InvadeTask.release.xcconfig */;
+			baseConfigurationReference = A1885A211E5AEE5045F6CC06 /* Pods-InvadeMSTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 33R6DGRHNR;
+				DEVELOPMENT_TEAM = 8W5D2366YD;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InvadeTask/Configuration/Info.plist;

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import  RealmSwift
+import RealmSwift
 
 extension Object {
     func safeWrite (operation: ()->()){
